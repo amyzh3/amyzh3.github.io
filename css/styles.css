@@ -13,6 +13,11 @@ header {
   padding-bottom: 2rem;
 }
 
+footer {
+    padding: 1rem 2rem;   /* top/bottom = 1rem, left/right = 2rem */
+    text-align: left;  
+}
+
 nav a {
   color: white;
   margin: 0 1rem;
