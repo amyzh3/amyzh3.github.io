@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: white;
+  color: #333;
+}
+
+header {
+  background: white;
+  color: rgb(101, 98, 98);
+  padding: 3rem;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+nav a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+.gallery {
+  max-width: 1200px;   /* limit how wide the gallery gets */
+  margin: 0 auto;      /* center it horizontally */
+  padding: 10px 40px;     /* add extra space left & right */
+}
+
+.gallery .grid {
+  column-count: 3;     
+  column-gap: 20 px;    /* gap between columns */
+}
+
+.gallery img {
+  width: 100%;
+  margin: 0 0 10px;    /* gap below each image */
+  border-radius: 0;
+  display: block;
+}
